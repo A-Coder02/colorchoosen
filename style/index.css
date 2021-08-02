@@ -168,13 +168,13 @@
     align-items: flex-end;
     flex-wrap: wrap;
 }
-.product-items{
-	overflow:hidden;
-	height:100%;
-	text-align:center;
-	width:33.33333%;
-	font-family:inherit;
-	padding-top:1rem;
+.product-items {
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+    flex: 1 1 30%;
+    font-family: inherit;
+    padding-top: 1rem;
 }
 .new-product {
     /* border-radius: 50%; */

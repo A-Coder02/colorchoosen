@@ -39,12 +39,7 @@
   
   color: white;
 }
-.custom-select{
-	width:100%;
-	float:right;
-	padding:40px;
-	position:sticky;
-}
+
 .flickity-page-dots .dot {
     display: inline-block;
     width: 40px !important;
@@ -88,7 +83,7 @@
 }
 .pbi-wrapper  h3{
 	color:white;
-	font-size:3rem;
+	font-size:2rem;
 	text-transform:uppercase;
 	text-decoration-style:wawy;
 }

@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Tourney:wght@100&display=swap');
 
+
+::selection{
+	
+}
 *{
 	margin:0;
 	padding:0;
@@ -283,19 +287,12 @@ img{
 	height:100%;
 	object-fit:cover;
 }
-.imp-links-slots li:nth-child(1) {
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    /* text-decoration: underline; */
-	
-}
-.imp-links-slots li{
-	display:block;
-	padding:2px 0.8em;
-	margin-bottom:0.6rem;
-	font-size:1.0rem;
-	text-transform:uppercase;
+.imp-links-slots li {
+    display: block;
+    padding: 1rem 0.8em;
+    margin-bottom: 0.6rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
 }
 .imp-links-slots li a:hover {
     color: var(--p-clr);
@@ -560,7 +557,21 @@ a.tr {
     font-size: 1.5rem;
 	/* padding:1rem; */
 }
-
+.slot-sub-header {
+    font-size: 1.7rem !important;
+    background: var(--p-clr);
+    word-spacing: 3px;
+    border-radius: -0;
+    color: white;
+}
+.imp-links-slots > ul {
+    padding: 0;
+}
+.imp-links-slots span{
+	font-size:0.8rem;
+	color:gray;
+	display:block;
+}
 /* kkk */
 
 /* kkk */

@@ -5,6 +5,13 @@ header{
 	main {
     padding-top: 53px;
 }
+
+.pbi-wrapper  h3 {
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration-style: wawy;
+}
 	.header-items.header-items-bottom {
     top: 25px;
 }
@@ -159,6 +166,10 @@ header{
     overflow: auto;
     padding-bottom: 3rem;
 }
+::-webkit-scrollbar {
+  width: 0.rem;
+
+}
 .cart-btns {
     font-size: 1.2rem;
     padding: 1.2rem !important;
@@ -171,7 +182,7 @@ header{
     overflow: auto;
     padding: 0px;
     position: fixed;
-    top: 98px;
+    top: 109px;
     z-index: 2;
     background: white;
     color: var(--s-clr);
@@ -465,7 +476,12 @@ header{
 	.product-main{height:300px;}
 	.product-main-para-product{width:auto;margin:auto;}
 	.product-mains{height:auto;}
-	.product-items{width:50%;padding-top:1rem;overflow:auto;font-size:0.8rem;}
+	.product-items {
+    flex: 0 1 50%;
+    padding-top: 1rem;
+    overflow: auto;
+    font-size: 0.8rem;
+}
 	.product-items > a {
     margin: 0;
     height: fit-content;
@@ -496,9 +512,40 @@ header{
     padding: 0.5em 1.5em;
     position: relative;
     display: flex;
+	
 	justify-content:flex-start !important;
 }
+.custom-select {
+    flex-direction: column;
+}
+.custom-select {
+    position: sticky;
+    z-index: 5;
+    top: 109px;
+    left: 0;
+    justify-content: center;
+    background: white;
+    width: 100%;
+    margin-top: -1.5rem;
+    display: flex;
+    padding: 0.4rem;
+    text-transform: uppercase;
+    z-index: 0;
+}
+.custom-select form {
+    display: none;
+}
 main {
+}
+.custom-select select,
+.custom-select button,
+.custom-select input{
+	padding:0.3rem;
+}
+.custom-select select{
+	width:100%;
+}.custom-select div{
+	display:flex;
 }
 }
 @media only screen and (max-width:300px) and (max-height: 300px){
@@ -551,4 +598,5 @@ div#b2 {
     font-size: 1.2rem;
     padding: 1rem 0;
 }
+
 }
